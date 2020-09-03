@@ -11,7 +11,7 @@ In the successive years of increasing industrial production accidents, human uns
 
 我的开发和运行环境如上图所示。**注意：我没有在Windows下进行测试。**
 
-My development and running environment is shown above. **Note: I did not test under Windows OS. **
+My development and running environment is shown above. **Note: I did not test under Windows OS.**
 
 ## 实际演示
 
