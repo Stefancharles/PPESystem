@@ -73,7 +73,7 @@ Due to my other commitments at the moment, this project will probably be on hold
 * Recommended for Linux environment, if other systems, please resolve operational issues yourself
 * It is essential to download the necessary files:  [Click here to download mars-small128.pb](https://www.yun.cn/s/7c403eaf5f774ae1baaf75e77e85b9de).
 
-This is the apparent feature file, used to do feature matching when tracking. **Make sure to download it and put it in the root of the project! **
+This is the apparent feature file, used to do feature matching when tracking.  **Make sure to download it and put it in the root of the project!**
 
 You will also need a model, I am providing a trained model here for your non-commercial use, be sure to train the model yourself if you want to identify your own specified object.
 
@@ -184,6 +184,10 @@ python predict_gui.py
 ## 联系方式
 
 stefancharles@qq.com，我也有我自己的事情，有空的话我会回复邮件。
+
+我的个人博客：https://stefancharles.cn/
+
+我的B站主页：https://space.bilibili.com/369436058
 
 ## 致谢
 
