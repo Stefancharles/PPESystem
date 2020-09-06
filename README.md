@@ -189,6 +189,36 @@ stefancharles@qq.com，我也有我自己的事情，有空的话我会回复邮
 
 我的B站主页：https://space.bilibili.com/369436058
 
+## 补充
+
+在创建要求的conda环境时，可能会遇到在当前的channels中找不到这个包。如下提示：
+
+```
+PackageNotFoundError: Packages missing in current channels:
+```
+
+这个时候，我们可以使用下面的命令来查找我们想要安装的包（以skimage为例）
+
+```bash
+anaconda search -t conda skimage 
+```
+
+接下来不出意外，可以找到了一个或者多个可用的skimage包，以DavidMertz/accelerate-skimage为例：
+
+接着，我们使用show指令来查看该包的详细情况：
+
+```bash
+anaconda show  DavidMertz/accelerate-skimage
+```
+
+根据提示，使用下面的指令install这个包
+
+```bash
+conda install --channel https://conda.anaconda.org/DavidMertz accelerate-skimage
+```
+
+OK，到这里，接下来就是yes什么的了，相信你知道怎么做了。Good Luck。
+
 ## 致谢
 
 本项目代码参考了很多其他大神的开源代码，这里贴出一部分地址：
