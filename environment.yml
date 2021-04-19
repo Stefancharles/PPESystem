@@ -1,4 +1,4 @@
-name: helmet-detection
+name: helmet
 channels:
   - anaconda
   - conda-forge
