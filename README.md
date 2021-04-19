@@ -84,7 +84,7 @@ You will also need a model, I am providing a trained model here for your non-com
 1.创建要求的conda环境
 
 ```bash
-conda create --name helmet-detection --file requirements.txt
+conda create --name helmet --file requirements.txt
 ```
 
 或者：
@@ -96,7 +96,7 @@ conda create --name helmet-detection --file requirements.txt
 2.激活conda环境
 
 ```bash
-conda activate helmet-detection
+conda activate helmet
 ```
 
 3.运行带UI界面的demo
