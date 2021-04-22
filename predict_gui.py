@@ -78,6 +78,7 @@ def _main_(args):
     #   Predict bounding boxes
     ###############################
     # if 'webcam' in input_path:  # do detection on the first webcam
+    
     video_readers = []
     for i in range(num_cam):
         video_reader = cv2.VideoCapture(i)
@@ -136,14 +137,14 @@ def _main_(args):
             images = []
             messages = []
         if cv2.waitKey(1) == 27:
-            break  # esc to quit
+            break
     cv2.destroyAllWindows()
 
 
 if __name__ == '__main__':
     argparser = argparse.ArgumentParser(description='Predict with a trained yolo model')
     argparser.add_argument('-c', '--conf', type=str, default='config.json', help='path to configuration file')
-    argparser.add_argument('-n', '--count', type=int, default=1, help='number of cameras')
+    argparser.add_argument('-n', '--count', help='number of cameras')
 
     args = argparser.parse_args()
     _main_(args)

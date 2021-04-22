@@ -102,7 +102,7 @@ conda activate helmet
 3.运行带UI界面的demo
 
 ```bash
-python predict_gui.py
+python predict_gui.py -c config.json -n 4
 ```
 
 ## 训练你自己的模型
